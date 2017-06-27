@@ -4,13 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     tools:context="com.cfyushi.kotlindemo.MainActivity">
 
     <Button
         android:id="@+id/demo_intent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Intent"/>
+        android:text="Intent" />
+
+    <Button
+        android:id="@+id/demo_dialogs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dialogs" />
 
 </LinearLayout>

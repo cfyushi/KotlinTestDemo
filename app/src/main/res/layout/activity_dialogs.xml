@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cfyushi.kotlindemo.DialogsActivity">
+
+    <Button
+        android:id="@+id/dialogs_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast" />
+
+    <Button
+        android:id="@+id/dialogs_alerts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alerts" />
+
+    <Button
+        android:id="@+id/dialogs_alerts_Appcompat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alerts Appcompat" />
+
+    <Button
+        android:id="@+id/dialogs_alerts_customView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alerts customView" />
+
+    <Button
+        android:id="@+id/dialogs_selectors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="selectors" />
+    <Button
+        android:id="@+id/dialogs_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="progress" />
+</LinearLayout>
